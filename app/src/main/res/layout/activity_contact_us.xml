@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimg"
+    tools:context=".ContactUs">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/lovers_quarrel"
+        android:gravity="center"
+        android:text="Contact Us"
+        android:textColor="#033E97"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Fill the form and we'll be back to you soon!"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/conname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/conemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/conproblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter your problem"
+        android:inputType="textMultiLine|textPersonName" />
+
+    <Button
+        android:id="@+id/consubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:text="Submit" />
+</LinearLayout>
