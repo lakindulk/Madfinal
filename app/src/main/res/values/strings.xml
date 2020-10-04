@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">LoulyDatingApp</string>
+    <string name="K_Logo">Louly</string>
+    <string name="K_login_description">By clicking Login, you agree with our Terms. Learn how we process your data in our Privacy Policy and Cookies Policy</string>
+    <string name="K_btnGest">LOGIN AS GEST</string>
+    <string name="K_btnPhone">LOGIN WITH PHONE NUMBER</string>
+    <string name="K_btnFacebook">LOGIN WITH FACEBOOK</string>
+    <string name="K_btnGoogle">LOGIN WITH GOOGLE</string>
+    <string name="K_topic2">My number is</string>
+    <string name="K_numberadd_description">When you tap Continue, Louly will send a text with verification code. Message and data rates may apply. The verified
+        phone number can be used to login.</string>
+    <string name="K_phone_num">Phone Number</string>
+    <string name="K_btnContinue">CONTINUE</string>
+    <string name="K_Welcome">Welcome to Louly</string>
+    <string name="K_WelcomeNote">Please follow these House Rules</string>
+    <string name="K_Rule1">Be yourself.</string>
+    <string name="K_Rule1Note">Make sure your photos, age and bio are true to who you are.</string>
+    <string name="K_Rule2">Stay safe.</string>
+    <string name="K_Rule2Note">Do not be too quick to give out personal information.</string>
+    <string name="K_Rule3">Play it cool.</string>
+    <string name="K_Rule3Note">Respect others and treat them as you would like to be treated.</string>
+    <string name="K_Rule4">Be proactive.</string>
+    <string name="K_Rule4Note">Always report bad behaviors.</string>
+    <string name="K_btnAgree">I AGREE</string>
+    <string name="K_topic3">Edit Profile</string>
+    <string name="K_AddMedia">Add Media</string>
+    <string name="K_DeleteMedia">Delete Media</string>
+    <string name="K_DeleteAccountDetails">Delete Account Details</string>
+    <string name="topic4">Choose Method</string>
+    <string name="K_camera">Camera</string>
+    <string name="K_gallery">Gallery</string>
+    <string name="K_facebook">Facebook</string>
+    <string name="K_Delete_account_details_topic">Are you sure you want to delete your Social media details?</string>
+    <string name="K_Delete_account_details_note">If you delete your social media details, you will be permanently lose your profile, photos and matches. If you delete your
+        account details, this action cannot be undone.</string>
+    <string name="K_Delete_Details">DELETE MY ACCOUNT DETAILS</string>
+    <string name="K_Confirm_delete_msg">Confirm Delete</string>
+    <string name="K_Confirm_delete_msg_note">Are you sure you want to delete this Media?</string>
+    <string name="K_btn_yes">YES</string>
+    <string name="K_btn_no">No</string>
+
+    <string name="K_Packeg_hedding">Get Louly Gold Package</string>
+    <string name="K_Packeg_12m_btn">12 months LKR 1,200.00/Mo</string>
+    <string name="K_Packeg_6m_btn">6 months LKR 1,500.00/Mo</string>
+    <string name="K_Packeg_1m_btn">1 months LKR 2,000.00/Mo</string>
+    <string name="K_Packeg_continue_btn">CONTINUE</string>
+    <string name="K_Topic6">Select Payment Method</string>
+    <string name="K_BtnAddMethod">Add Method</string>
+    <string name="K_BtnEditMethod">Edit Method</string>
+    <string name="K_Topic7">Add Payment Method</string>
+    <string name="K_CardNumber">Enter Card Number</string>
+    <string name="K_CardholderName">Enter Cardholder Name</string>
+    <string name="K_CardDate">MM/YY</string>
+    <string name="K_CardCvv">CVV</string>
+    <string name="K_UserEmail">Enter E-mail</string>
+    <string name="K_Topic8">Edit Payment Method</string>
+    <string name="K_SaveMethod">Save Card Details</string>
+    <string name="K_DeleteMethod">Delete Card Details</string>
+    <string name="K_Gold1">Unlimited Likes</string>
+    <string name="K_Gold1Note">Swipe Right as much as you want.</string>
+    <string name="K_Gold2">Choose Who Sees You</string>
+    <string name="K_Gold2Note">Only be shown to people you have liked.</string>
+    <string name="K_Gold3">Unlimited Rewinds</string>
+    <string name="K_Gold3Note">Go back and swipe again.</string>
+    <string name="K_Gold4">Turn Off Ads</string>
+    <string name="K_Gold4Note">Have fun swiping.</string>
+    <string name="K_Topic9">Buy Gold Package</string>
+    <string name="K_BuyBtn">Buy Now</string>
+
+</resources>

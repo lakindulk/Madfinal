@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "906882646369",
+    "firebase_url": "https://loulyapp.firebaseio.com",
+    "project_id": "loulyapp",
+    "storage_bucket": "loulyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906882646369:android:08eddc4510740cf5aec520",
+        "android_client_info": {
+          "package_name": "com.example.loulydatingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906882646369-mhsb33q2preehjkhjc8r4l9ejckogeuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loulydatingapp",
+            "certificate_hash": "6c549976d7ca46585cf8b42c92b73d30230ff6bf"
+          }
+        },
+        {
+          "client_id": "906882646369-hnjurss7hk23ehp1gumgft576ve0v5vp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARqsgiZrufBkO1uu8v47oS0h5R7w-mf-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906882646369-hnjurss7hk23ehp1gumgft576ve0v5vp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
