@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f3f8"
+    tools:context=".AddNewUser">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="405dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="625dp"
+        android:background="#ffa0d2"
+        android:focusable="auto"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="429dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/this_our_logo_for_app"
+            app:srcCompat="@drawable/logoapp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="488dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="23sp"
+            android:layout_weight="1"
+            android:fontFamily="@font/berkshire_swash"
+            android:shadowColor="#494646"
+            android:text="@string/the_dating_app"
+            android:textColor="#45454d"
+            android:textSize="27sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="626dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginStart="130sp"
+            android:layout_marginLeft="130sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/belgrano"
+            android:text="@string/add_new_user"
+            android:textColor="#45454d"
+            android:textSize="25sp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="384dp"
+            android:layout_height="399dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10sp"
+            android:background="#ffa0d2"
+            app:cardBackgroundColor="#ffa0d2"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="-192dp"
+                tools:layout_editor_absoluteY="11dp">
+
+                <EditText
+                    android:id="@+id/inputID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/belgrano"
+                    android:hint="@string/hintID"
+                    android:inputType="textPersonName"
+                    android:textColor="#45454d" />
+
+                <EditText
+                    android:id="@+id/inputName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/belgrano"
+                    android:hint="@string/hintName"
+                    android:inputType="textPersonName"
+                    android:textColor="#45454d" />
+
+                <EditText
+                    android:id="@+id/inputAge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/belgrano"
+                    android:hint="@string/hintAge"
+                    android:inputType="textPersonName"
+                    android:textColor="#45454d" />
+
+                <EditText
+                    android:id="@+id/inputGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/belgrano"
+                    android:hint="@string/hintGender"
+                    android:inputType="textPersonName"
+                    android:textColor="#45454d" />
+
+                <EditText
+                    android:id="@+id/InputArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/belgrano"
+                    android:hint="@string/hintArea"
+                    android:inputType="textPersonName"
+                    android:textColor="#45454d" />
+
+                <EditText
+                    android:id="@+id/inputPW"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/belgrano"
+                    android:hint="@string/hintPW"
+                    android:inputType="textPersonName"
+                    android:textColor="#45454d" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="141dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="250sp"
+            android:layout_marginLeft="250sp"
+            android:layout_marginTop="20sp"
+            app:cardBackgroundColor="#ffa0d2"
+            app:cardCornerRadius="15dp">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/button_back"
+                android:fontFamily="@font/belgrano"
+                android:padding="5sp"
+                android:text="@string/add"
+                android:textColor="#45454d"
+                android:textSize="14sp" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

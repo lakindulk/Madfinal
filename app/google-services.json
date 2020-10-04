@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "66790033657",
+    "firebase_url": "https://louly-app.firebaseio.com",
+    "project_id": "louly-app",
+    "storage_bucket": "louly-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66790033657:android:c4f37b50217c2feb5fba28",
+        "android_client_info": {
+          "package_name": "com.example.loulyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66790033657-e6sfi91g3r2qgjge6sd9amoukc8tpqrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRnD12k5FIwpJdd-Ap-3YviskZfMrvx18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66790033657-e6sfi91g3r2qgjge6sd9amoukc8tpqrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
